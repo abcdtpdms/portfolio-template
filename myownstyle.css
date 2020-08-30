@@ -1,0 +1,344 @@
+
+
+body{
+    background-color: rgb(70, 0, 117)
+}
+
+.frame{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction:column;
+
+}
+
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li{
+    display: inline;
+    align-self: center;
+    margin:0;
+    margin-left: 15px;
+
+    
+}
+
+ul{
+    margin:0;
+}
+
+.site-name{
+    margin:0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color: rgb(255, 79, 108);
+}
+
+.nav-menu{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: gray;
+    transition: 0.3s;
+}
+
+h5{
+    color: white;
+
+}
+
+h1{
+    color: gray
+}
+
+h1
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+
+}
+
+.korean-comment{
+    font-family: 'Song Myung', serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.sample{
+    background-color: rgb(255, 75, 105);
+}
+
+.sample:hover{
+    background-color: transparent;
+    color:rgb(255, 75, 105);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    transition: none;
+
+}
+
+.highlight{
+
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+
+.highlight:hover{
+    background-color: rgb(255, 75, 105);
+    transition: none;
+    color: black;
+    
+}
+
+.type1:hover{
+    background-color: greenyellow;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+
+.type2:hover{
+    background-color: rgb(0, 68, 255);
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.english-comment{
+    color: gray;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    letter-spacing: -0.3px;
+}
+
+
+.recent-menu{
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    weight: 700;
+    color: rgb(255, 79, 108);
+
+    margin-top: 100px;
+
+    display: inline;
+    align-self: flex-end;
+
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.contact{
+
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    font-weight: 700;
+    color:  rgb(255, 79, 108);
+    border-top: 1px solid  rgb(255, 79, 108);
+    margin-bottom: 20px; 
+
+    
+}
+
+.links>a{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.profile-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 100px 100px;
+}
+
+#profile-picture{
+    width: 400px;
+    margin-right: 60px;
+
+}
+
+.introduction>h2{
+ 
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    color: white;
+
+}
+
+.introduction>p{
+
+    font-family: 'Song Myung', serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: white;
+
+
+}
+
+#capability{
+ 
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+
+}
+
+.value-menu{
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    margin: 30px 100px;
+    color: white;
+}
+
+.value-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 100px 150px;
+    margin-top: 20px;
+    color: white;
+
+
+}
+
+.value{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.value-icon{
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    border: 2px solid gray;
+    border-radius: 100px;
+}
+
+.value-intro{
+    margin-left: 30px;
+}
+
+.value-name{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700px;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.value-exp{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.footer-comment{
+    text-align: center;
+    color: white;
+}
+
+a[title='Freepik']:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+a[title='Flaticon']:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+.recent-works{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 120px;
+    align-items: center; 
+    
+}
+
+.thumbnail{
+    width: 400px;
+    
+}
+
+.article-info{
+    margin: 0px 20px;
+}
+
+.article-name{
+    font-family: 'Song Myung', serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+    margin-top=0px;
+
+}
+
+.article-name:hover{
+    color: pink;
+    -webkit-text-stroke: 0.1px black;
+}
+
+.article-comment{
+    font-family: 'Song Myung', serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.more{
+    display: inline;
+    width: content;
+    height: content;
+    font-family: 'Roboto Slab', serif;
+    background-color: 
+    transparent;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0px;
+    float: right;
+}
+
+#name2{
+    text-align: right;
+}
